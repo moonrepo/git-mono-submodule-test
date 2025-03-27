@@ -1,0 +1,9 @@
+id: "git-mono-test-b"
+language: "javascript"
+
+tasks:
+  run:
+    command: "node src/index.mjs"
+    inputs:
+      - "**/*"
+      - "/shared.js"

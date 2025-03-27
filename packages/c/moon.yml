@@ -1,0 +1,9 @@
+id: "git-mono-test-c"
+language: "javascript"
+
+tasks:
+  run:
+    command: "node src/index.cjs"
+    inputs:
+      - "**/*"
+      - "/shared.js"

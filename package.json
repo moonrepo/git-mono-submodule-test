@@ -1,0 +1,6 @@
+{
+  "name": "git-mono-test-root",
+  "workspaces": [
+    "packages/*"
+  ]
+}
